@@ -1,0 +1,6 @@
+<div>
+    <h1>{{title}}</h1>
+    <h3>{{ninjas[random].name}} {{ninjas[random].rate | currency: 'kr'}} </h3>
+    <div class="remove" ng-click="removeNinja(ninjas)">x</div>
+    <span class="belt" style="background: {{ninjas[random].belt}}"> {{ninjas[random].belt}} belt</span>
+</div>
